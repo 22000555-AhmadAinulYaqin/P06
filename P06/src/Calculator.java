@@ -14,7 +14,13 @@ public class Calculator {
 		}
 	
 	public int divide (int a, int b) {
-		 return a / b;
+		if (b == 0) { 
+		System.out.println("Cannot divide by 0!");
+		return 0;
+		} else {
+			return a / b;
 		}
+	}
 	
 }
+	
